@@ -1,0 +1,27 @@
+
+
+
+Please download the dataset from this link.
+
+https://drive.google.com/drive/folders/1Skrzw62SC5X8qAWcHVL9k8BpMTI4TNYG?usp=sharing
+
+decompress the data files
+For the SVM experiments 
+
+cat data_svm_split.tgz_* | tar xz
+
+
+For the OML 
+
+tar xvzf datafiles_oml.tar.gz
+
+
+Change directory to the docker_oml for OML experiments to run the docker container.
+
+
+Change directory to the docker_svm for SVm experiments.
+
+
+
+
+

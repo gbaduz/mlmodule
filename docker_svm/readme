@@ -1,0 +1,30 @@
+sudo docker build -t deepdig-docker-svm .
+
+docker images
+
+docker run -it deepdig-docker-svm 
+
+sudo docker ps
+
+get the containerid
+in docker svm folder
+sudo docker cp ../code 33c638195e9f:/workspace
+
+sudo docker cp ../datafiles 33c638195e9f:/workspace
+
+cd /workspace
+
+
+cd code
+
+cd HP_teUnpatched
+
+
+./scriptme_16.sh
+
+python parseResultsFile.py
+
+pls check output folder
+
+
+

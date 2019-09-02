@@ -1,0 +1,32 @@
+sudo docker build -t deepdig-docker .
+
+docker images
+
+docker run -it deepdig-docker
+
+sudo docker ps
+
+get the containerid
+
+sudo docker cp ../code/ containerid:/workspace
+
+sudo docker cp ../datafiles_oml/ 71e4bdb30260:/workspace
+
+
+#in the container
+cd /workspace
+
+cd code
+
+cd www2019deepdig
+
+./runincalltest_single.sh
+
+./runincalltesthuman_single.sh
+
+
+
+
+
+
+
